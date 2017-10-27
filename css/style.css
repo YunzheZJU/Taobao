@@ -14,3 +14,56 @@
 .ad-bg {
     background-color: #7ec536;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hot {
+    color: #67c032;
+    font-weight: bold;
+}
+
+.search-word {
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+.search-form {
+    border: 2px solid #67c032;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+.btn-bold {
+    border: 2px solid #67c032;
+}
+
+.bn-bg {
+    background-image: -webkit-linear-gradient(left, #78f143 0, #2cc10a 100%);
+    background-image: -o-linear-gradient(left, #78f143 0, #2cc10a 100%);
+    background-image: linear-gradient(to right, #78f143 0, #2cc10a 100%);
+}
+
+.banner-title {
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background: #2cc10a;
+}
+
+.banner-tag {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
