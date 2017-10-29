@@ -28,7 +28,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: inherit;
+    color: #2cc10a;
 }
 
 .hot {
@@ -75,6 +75,10 @@ a:hover {
     background-image: linear-gradient(to right, #78f143 0, #2cc10a 100%);
 }
 
+.banner a:hover{
+    color: inherit;
+}
+
 .banner-title {
     color: #fff;
     float: left;
@@ -83,6 +87,7 @@ a:hover {
     font-size: 18px;
     font-weight: bold;
     background: #2cc10a;
+    cursor: default;
 }
 
 .banner-tag {
@@ -102,15 +107,12 @@ a:hover {
 .over-hide {
     overflow: hidden;
     white-space: nowrap;
+    text-overflow:ellipsis;
 }
 
 .navbar-nav li {
     overflow: hidden;
     white-space: nowrap;
-}
-
-.w-190px {
-    width: 190px;
 }
 
 .menu-group {
@@ -130,6 +132,8 @@ a:hover {
 .menu-item {
     position: relative;
     display: block;
+    line-height: 1.8em;
+    font-size: 1.1em;
     padding: .25rem 1.25rem .25rem 1.25rem;
     background-color: #fff;
     transition: background-color .5s;
@@ -173,7 +177,7 @@ a:hover {
     cursor: pointer;
 }
 
-.carousel-indicators {
+.slide-indicators {
     padding: 4px;
     margin-right: 42%;
     margin-left: 42%;
@@ -183,15 +187,19 @@ a:hover {
 }
 
 .img-fullheight {
-    height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 .tmall-header {
     position: relative;
-    height: 32px;
+    height: 20px;
     font-size: 0.8em;
     line-height: 18px;
+}
+
+.tmall-header em {
+    margin-left: 136px;
+    font-style: normal;
 }
 
 .tmall-bg {
@@ -200,4 +208,230 @@ a:hover {
     height: 19px;
     background-size: 122px 22px;
     background: url(../images/tmall-header.png) no-repeat 2px 0;
+}
+
+.tmall-slide {
+    top: -.75rem;
+    bottom: auto;
+}
+
+.tmall-slide li {
+    background-color: rgba(0,255,0,.5);
+    height: 4px;
+    transition: background-color .5s;
+    -moz-transition: background-color .5s;	/* Firefox 4 */
+    -webkit-transition: background-color .5s;	/* Safari 和 Chrome */
+    -o-transition: background-color .5s;	/* Opera */
+}
+
+.tmall-slide .active {
+    background-color: #000;
+}
+
+.hot-today {
+    font-size: 12px;
+    font-weight: 400;
+    background: #f1f1f1;
+    color: #a1a1a1;
+    line-height: 24px;
+}
+
+.profile {
+    background: url(../images/profile.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.avatar {
+}
+
+.avatar-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.nickname {
+    font-size: 10px;
+}
+
+.btn-profile, .btn-profile:hover, .btn-profile:active {
+    text-align: center;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(right, #6fd941 0, #2cc10a 100%);
+    background-image: -o-linear-gradient(right, #6fd941 0, #2cc10a 100%);
+    background-image: linear-gradient(to left, #6fd941 0, #2cc10a 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fd94100', endColorstr='#2cc10a06', GradientType=1);
+    -webkit-border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 4px;
+    -moz-background-clip: padding;
+    border-radius: 4px;
+    background-clip: padding-box;
+    font-weight: bold;
+}
+
+.btn-profile:focus {
+    border-color:#2cc10a;
+    box-shadow:0 0 0 3px rgba(120, 241, 67, 0.5);
+}
+
+.tip {
+    position: relative;
+    color: #129a31;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.tip-bg {
+    background: #c0e1c8;
+}
+
+.tip:hover {
+    color: #129a31;
+}
+
+.triangle {
+    position: absolute;
+    right: -20px;
+    top: 9px;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-left: 32px;
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent #129a31;
+}
+
+.nav-item {
+    line-height: 1em;
+}
+
+.nav-item .active {
+    border-bottom: 2px solid #2cc10a;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+    color: #129a31;
+}
+
+.tuple {
+    float: left;
+    overflow: hidden;
+    font-size: 0.8em;
+    margin: .25rem;
+    transition: color .5s;
+    -moz-transition: color .5s;	/* Firefox 4 */
+    -webkit-transition: color .5s;	/* Safari 和 Chrome */
+    -o-transition: color .5s;	/* Opera */
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+.tuple:hover {
+    color: #079e03;
+}
+
+.function li {
+    padding-right: .25rem!important;
+    padding-bottom: .25rem!important;
+}
+
+.function a {
+    height: 75px;
+    background-color: #fff!important;
+}
+
+.function a:hover {
+    color: #2cc10a;
+}
+
+.function p {
+    font-size: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 11px;
+}
+
+.icon-phone {
+    background: url(../images/icons.png) no-repeat 0 0;
+}
+
+.icon-trip {
+    background: url(../images/icons.png) no-repeat 0 -48px;
+}
+
+.icon-insurance {
+    background: url(../images/icons.png) no-repeat 0 -85px;
+}
+
+.icon-game {
+    background: url(../images/icons.png) no-repeat 0 -132px;
+}
+
+.icon-lotus {
+    background: url(../images/icons.png) no-repeat 0 -176px;
+}
+
+.icon-movie {
+    background: url(../images/icons.png) no-repeat 0 -220px;
+}
+
+.icon-hotel {
+    background: url(../images/icons.png) no-repeat 0 -1052px;
+}
+
+.icon-money {
+    background: url(../images/icons.png) no-repeat 0 -308px;
+}
+
+.icon-service {
+    background: url(../images/icons.png) no-repeat 0 -352px;
+}
+
+.icon-performance {
+    background: url(../images/icons.png) no-repeat 0 -352px;
+}
+
+.icon-fee {
+    background: url(../images/icons.png) no-repeat 0 -440px;
+}
+
+.icon-ticket {
+    background: url(../images/icons.png) no-repeat 0 -1146px;
+}
+
+.app-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.app-icon li {
+    padding-bottom: .5rem!important;
+}
+
+.app-icon h6 {
+    font-weight: bold;
+}
+
+.app-icon .more {
+    position: absolute;
+    right: 10px;
+    font-size: 11px;
 }
