@@ -182,3 +182,22 @@ a:hover {
     border-radius: 10px;
 }
 
+.img-fullheight {
+    height: 100%;
+    width: auto;
+}
+
+.tmall-header {
+    position: relative;
+    height: 32px;
+    font-size: 0.8em;
+    line-height: 18px;
+}
+
+.tmall-bg {
+    width: 136px;
+    position: absolute;
+    height: 19px;
+    background-size: 122px 22px;
+    background: url(../images/tmall-header.png) no-repeat 2px 0;
+}
