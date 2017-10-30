@@ -5,6 +5,26 @@ body {
     background-color: #f4f4f4;
 }
 
+.top-nav-item {
+    font-size: 0.9em;
+}
+
+.top-nav-item:hover {
+    font-weight: normal!important;
+}
+
+.top-nav-list .show {
+    color: #2cc10a;
+}
+
+.top-nav-link {
+    color: inherit;
+}
+
+.top-nav-link:hover, .top-nav-link:active {
+    color: #2cc10a !important;
+}
+
 .dropdown-menu {
     min-width: 0;
     padding: 0;
@@ -14,7 +34,22 @@ body {
 }
 
 .dropdown-item {
+    font-size: 0.9em;
     padding: .25rem .5rem;
+}
+
+.dropdown-item:active {
+    color: #2cc10a;
+    background-color: #f8f9fa;
+}
+
+.dropdown-item:hover {
+    color: #2cc10a;
+    background-color: #fff;
+}
+
+.dropdown-item {
+    background-color: #f8f9fa;
 }
 
 .ad-bg {
@@ -143,11 +178,6 @@ a:hover {
     text-overflow:ellipsis;
 }
 
-.navbar-nav li {
-    overflow: hidden;
-    white-space: nowrap;
-}
-
 .menu-group {
     display: -ms-flexbox;
     display: flex;
@@ -199,7 +229,7 @@ a:hover {
     right: 0.5rem;
 }
 
-.nav-item {
+.nav-notice .nav-item {
     font-size: 0.9em;
 }
 
@@ -274,9 +304,6 @@ a:hover {
     background-size: 100% 100%;
 }
 
-.avatar {
-}
-
 .avatar-image {
     border-radius: 50%;
     width: 50px;
@@ -339,16 +366,16 @@ a:hover {
     border-color: transparent transparent transparent #129a31;
 }
 
-.nav-item {
+.nav-notice .nav-item {
     line-height: 1em;
 }
 
-.nav-item .active {
+.nav-notice .nav-item .active {
     border-bottom: 2px solid #2cc10a;
     font-weight: bold;
 }
 
-.nav-item:hover {
+.nav-notice .nav-item:hover {
     font-weight: bold;
     color: #129a31;
 }
@@ -400,54 +427,55 @@ ul {
     width: 24px;
     height: 24px;
     margin-top: 11px;
+    background: url(../images/icons.png) no-repeat;
 }
 
 .icon-phone {
-    background: url(../images/icons.png) no-repeat 0 0;
+    background-position: 0 0;
 }
 
 .icon-trip {
-    background: url(../images/icons.png) no-repeat 0 -48px;
+    background-position: 0 -44px;
 }
 
 .icon-insurance {
-    background: url(../images/icons.png) no-repeat 0 -85px;
+    background-position: 0 -88px;
 }
 
 .icon-game {
-    background: url(../images/icons.png) no-repeat 0 -132px;
+    background-position: 0 -132px;
 }
 
 .icon-lotus {
-    background: url(../images/icons.png) no-repeat 0 -176px;
+    background-position: 0 -176px;
 }
 
 .icon-movie {
-    background: url(../images/icons.png) no-repeat 0 -220px;
+    background-position: 0 -220px;
 }
 
 .icon-hotel {
-    background: url(../images/icons.png) no-repeat 0 -1052px;
+    background-position: 0 -1052px;
 }
 
 .icon-money {
-    background: url(../images/icons.png) no-repeat 0 -308px;
+    background-position: 0 -308px;
 }
 
 .icon-service {
-    background: url(../images/icons.png) no-repeat 0 -352px;
+    background-position: 0 -352px;
 }
 
 .icon-performance {
-    background: url(../images/icons.png) no-repeat 0 -352px;
+    background-position: 0 -396px;
 }
 
 .icon-fee {
-    background: url(../images/icons.png) no-repeat 0 -440px;
+    background-position: 0 -440px;
 }
 
 .icon-ticket {
-    background: url(../images/icons.png) no-repeat 0 -1146px;
+    background-position: 0 -1146px;
 }
 
 .app-icon img {
