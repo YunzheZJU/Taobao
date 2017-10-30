@@ -2,8 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>淘宝网 - 假的</title>
 
@@ -11,10 +10,6 @@
     <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
     <link type="text/css" href="include/bootstrap.css" rel="stylesheet">
     <link type="text/css" href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <scripts type="text/scripts" src="include/html5shiv.js"></scripts>
-    <scripts type="text/scripts" src="include/respond.js"></scripts>
-    <![endif]-->
 </head>
 <body>
     <nav class="navbar navbar-expand navbar-light bg-light py-0">
@@ -89,7 +84,7 @@
     </nav>
     <div class="ad-bg">
         <div class="container-fluid">
-            <div class=" col-xl-10 col-lg-11 col-sm-12  mx-auto">
+            <div class="col-xl-10 col-lg-11 col-sm-12  mx-auto">
                 <img src="images/ad.jpg" alt="Responsive image" href="#" class="mx-auto d-block" width="1190" height="70">
             </div>
         </div>
@@ -100,29 +95,79 @@
                 <div class="col-2">
                     <img src="images/logo.gif" class="img-fluid w-100" alt="Responsive image">
                 </div>
-                <div class="col-9 align-self-end mx-auto mb-3">
+                <div class="col-9 align-self-center mx-auto mb-2">
                     <div class="row">
+                        <div class="col-12 mt-2">
+                            <ul class="nav nav-pills px-0 my-0 search-selector" id="search-selector" role="tablist">
+                                <li class="selector-item">
+                                    <a class="selector-link active" id="selector-baobei-tab" data-toggle="pill" href="#selector-baobei" role="tab" aria-controls="selector-baobei" aria-selected="true">
+                                        宝贝
+                                    </a>
+                                </li>
+                                <li class="selector-item">
+                                    <a class="selector-link" id="selector-tmall-tab" data-toggle="pill" href="#selector-tmall" role="tab" aria-controls="selector-tmall" aria-selected="false">
+                                        天猫
+                                    </a>
+                                </li>
+                                <li class="selector-item">
+                                    <a class="selector-link" id="selector-dianpu-tab" data-toggle="pill" href="#selector-dianpu" role="tab" aria-controls="selector-dianpu" aria-selected="false">
+                                        店铺
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                         <div class="col-12">
                             <form class="form-inline">
                                 <input class="col-6 col-sm-10 form-control search-form" autofocus="autofocus" type="search" placeholder="旺旺大礼包" aria-label="Search">
-                                <button class="btn search-btn btn-outline-success my-2 my-sm-0 px-3" type="submit">搜索</button>
+                                <button class="btn search-btn btn-outline-success my-0 px-3" type="submit">搜索</button>
                             </form>
                         </div>
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-6 col-sm-10 text-black over-hide">
+                    <div class="row mt-1 tab-content" id="search-selectorContent">
+                        <div class="tab-pane col-6 col-sm-10 text-black over-hide fade show active" id="selector-baobei" role="tabpanel" aria-labelledby="selector-baobei-tab">
                             <a href="#" class="search-word hot">拖鞋</a>
-                            <a href="#" class="search-word">文件夹</a>
-                            <a href="#" class="search-word hot">马桶</a>
-                            <a href="#" class="search-word">USB分线器</a>
-                            <a href="#" class="search-word">显卡</a>
-                            <a href="#" class="search-word hot">行车记录仪</a>
-                            <a href="#" class="search-word">移动硬盘</a>
-                            <a href="#" class="search-word hot">数据线</a>
+                            <a href="#" class="search-word">华为双11</a>
+                            <a href="#" class="search-word hot">双11内衣</a>
+                            <a href="#" class="search-word">挂画</a>
+                            <a href="#" class="search-word">马桶</a>
+                            <a href="#" class="search-word hot">u盘 32g</a>
+                            <a href="#" class="search-word">行车记录仪</a>
+                            <a href="#" class="search-word">纸尿裤</a>
+                            <a href="#" class="search-word">抱枕被</a>
+                            <a href="#" class="search-word">usb分线器</a>
                             <a href="#" class="search-word">饼干</a>
-                            <a href="#" class="search-word">u盘 32g</a>
+                            <a href="#" class="search-word">夹克</a>
                             <a href="#" class="search-word">钥匙扣</a>
-                            <a href="#" class="search-word">文件夹</a>
+                        </div>
+                        <div class="tab-pane col-6 col-sm-10 text-black over-hide fade" id="selector-tmall" role="tabpanel" aria-labelledby="selector-tmall-tab">
+                            <a href="#" class="search-word">牛仔裤</a>
+                            <a href="#" class="search-word hot">外套</a>
+                            <a href="#" class="search-word">四件套</a>
+                            <a href="#" class="search-word hot">扫地机器人</a>
+                            <a href="#" class="search-word">客厅灯</a>
+                            <a href="#" class="search-word">大闸蟹</a>
+                            <a href="#" class="search-word hot">小白鞋</a>
+                            <a href="#" class="search-word">双肩包</a>
+                            <a href="#" class="search-word hot">打底裤</a>
+                            <a href="#" class="search-word">文胸</a>
+                            <a href="#" class="search-word">行车记录仪</a>
+                            <a href="#" class="search-word hot">洗发水</a>
+                            <a href="#" class="search-word">牛奶</a>
+                        </div>
+                        <div class="tab-pane col-6 col-sm-10 text-black over-hide fade" id="selector-dianpu" role="tabpanel" aria-labelledby="selector-dianpu-tab">
+                            <a href="#" class="search-word hot">拖鞋</a>
+                            <a href="#" class="search-word">华为双11</a>
+                            <a href="#" class="search-word hot">双11内衣</a>
+                            <a href="#" class="search-word">挂画</a>
+                            <a href="#" class="search-word">马桶</a>
+                            <a href="#" class="search-word hot">u盘 32g</a>
+                            <a href="#" class="search-word">行车记录仪</a>
+                            <a href="#" class="search-word">纸尿裤</a>
+                            <a href="#" class="search-word">抱枕被</a>
+                            <a href="#" class="search-word">usb分线器</a>
+                            <a href="#" class="search-word">饼干</a>
+                            <a href="#" class="search-word">夹克</a>
+                            <a href="#" class="search-word">钥匙扣</a>
                         </div>
                     </div>
                 </div>
@@ -204,7 +249,7 @@
                         </div>
                         <div class="col-7 px-2 py-2">
                             <div class="row no-gutters pb-2">
-                                <div class="col-11 col-lg-10 col-xl-9 pr-2">
+                                <div class="col-12 col-xl-9 pr-2">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators slide-indicators">
                                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="slide-control active"></li>
@@ -232,12 +277,10 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-1 col-lg-2 col-xl-3">
+                                <div class="col-2 col-xl-3 pr-2 pr-xl-0 py-2 py-xl-0">
                                     <img src="images/focus.jpg" class="img-fullheight" alt="焦点图">
                                 </div>
-                            </div>
-                            <div class="row no-gutters">
-                                <div class="col-11 col-lg-10 col-xl-9 pr-2">
+                                <div class="col-8 col-xl-9 pr-2 py-2">
                                     <div class="tmall-header over-hide mx-1">
                                         <span class="tmall-bg"></span><em>理想生活上天猫</em>
                                     </div>
@@ -288,9 +331,31 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-1 col-lg-2 col-xl-3">
+                                <div class="col-2 col-xl-3 pb-2">
                                     <p class="hot-today mb-0">今日热卖</p>
                                     <img src="images/hotsale.jpg" class="img-fullheight" alt="今日热卖">
+                                </div>
+                                <div class="col-12 youhaohuo bg-white py-3 px-3">
+                                    <img class="youhaohuo-title" src="images/youhaohuo.png" alt="有好货"/>
+                                    <em>与品质生活不期而遇</em>
+                                    <a class="more" href="#">换一换</a>
+                                    <div class="row mt-4">
+                                        <div class="col-12">
+                                            <ul class="row no-gutters px-0 my-0">
+                                                <li class="col-4">
+                                                    <a href="#">
+                                                        <div class="youhaohuo-image">
+                                                            <img src="images/haohuo_1.png" alt="羊毛衫">
+                                                        </div>
+                                                        <div class="youhaohuo-info over-hide">
+                                                            <h4>Valentino船锚羊毛针织衫</h4>
+                                                            <p>别致的船锚图案，与人像相结合，流露出异域的神秘感。</p>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
